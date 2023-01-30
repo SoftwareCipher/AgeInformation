@@ -19,11 +19,14 @@ public class Person {
     private Long id;
     @Column(name ="name")
     private String name;
+    @Column(name = "surname")
+    private String surname;
     @Column(name = "birthday")
     private LocalDate birthDate;
 
-    public Person(String name, LocalDate birthday) {
+    public Person(String name, String surname, LocalDate birthday) {
         this.name = name;
+        this.surname = surname;
         this.birthDate = birthday;
     }
 }
