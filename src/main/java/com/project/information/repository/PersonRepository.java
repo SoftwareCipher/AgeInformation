@@ -9,10 +9,10 @@ import java.util.List;
 
 @Repository
 public interface PersonRepository extends JpaRepository<Person, Long> {
-    List<Person> findByBirthDateBetween(LocalDate from, LocalDate to);
+    List<Person> findByBirthDayBetween(LocalDate from, LocalDate to);
 
     default List<Person> byAge(int years) {
-        return findByBirthDateBetween(
+        return findByBirthDayBetween(
                 LocalDate.now().minusYears(years),
                 LocalDate.now().minusYears(years - 1)
         );

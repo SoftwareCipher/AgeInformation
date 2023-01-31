@@ -22,4 +22,9 @@ public class PersonService implements ServiceImpl {
     public List<Person> getPersonAge(int age) {
         return personRepository.byAge(age);
     }
+
+    @Override
+    public List<Person> getAllPersons() {
+        return personRepository.findAll();
+    }
 }

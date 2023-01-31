@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Jan 31 21:58:38 EET 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0186-0968-f408-000002a10900 
+on database directory memory:D:\IntelliJ IDEA 2022.2.3\progects\Age Information\8f29f089-93c7-4c0f-b6fe-f5344122c19a with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2f0e140b 
+Loaded from file:/C:/Users/Observer/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=19.0.1+10-21
+user.dir=D:\IntelliJ IDEA 2022.2.3\progects\Age Information
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

@@ -10,23 +10,21 @@ import java.time.LocalDate;
 @Setter
 @Entity
 @NoArgsConstructor
-@Table(name = "person")
 public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     private Long id;
-    @Column(name ="name")
+    @Column(name = "name")
     private String name;
     @Column(name = "surname")
     private String surname;
     @Column(name = "birthday")
-    private LocalDate birthDate;
+    private LocalDate birthDay;
 
     public Person(String name, String surname, LocalDate birthday) {
         this.name = name;
         this.surname = surname;
-        this.birthDate = birthday;
+        this.birthDay = birthday;
     }
 }
