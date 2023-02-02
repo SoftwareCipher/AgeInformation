@@ -7,5 +7,5 @@ import java.util.List;
 public interface Impl {
     List<Person> getPersonAge(int age);
 
-    List<Person> getAllPersons();
+//    List<Person> getAllPersons();
 }

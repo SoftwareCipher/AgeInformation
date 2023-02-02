@@ -38,14 +38,14 @@ public class PersonServiceTest {
         verify(personRepository).byAge(anyInt());
     }
 
-    @Test
-    public void testGetAllPersons() {
-        ArrayList<Person> personList = new ArrayList<>();
-        when(personRepository.findAll()).thenReturn(personList);
-        List<Person> actualAllPersons = personService.getAllPersons();
-        assertSame(personList, actualAllPersons);
-        assertTrue(actualAllPersons.isEmpty());
-        verify(personRepository).findAll();
-    }
+//    @Test
+//    public void testGetAllPersons() {
+//        ArrayList<Person> personList = new ArrayList<>();
+//        when(personRepository.findAll()).thenReturn(personList);
+//        List<Person> actualAllPersons = personService.getAllPersons();
+//        assertSame(personList, actualAllPersons);
+//        assertTrue(actualAllPersons.isEmpty());
+//        verify(personRepository).findAll();
+//    }
 }
 

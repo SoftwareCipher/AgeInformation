@@ -23,8 +23,8 @@ public class PersonService implements Impl {
         return personRepository.byAge(age);
     }
 
-    @Override
-    public List<Person> getAllPersons() {
-        return personRepository.findAll();
-    }
+//    @Override
+//    public List<Person> getAllPersons() {
+//        return personRepository.findAll();
+//    }
 }

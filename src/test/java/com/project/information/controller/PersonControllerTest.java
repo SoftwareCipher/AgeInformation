@@ -32,16 +32,16 @@ public class PersonControllerTest {
         verify(personRepository).byAge(anyInt());
     }
 
-    @Test
-    public void testGetAllPersons() {
-        PersonRepository personRepository = mock(PersonRepository.class);
-        ArrayList<Person> personList = new ArrayList<>();
-        when(personRepository.findAll()).thenReturn(personList);
-        List<Person> actualAllPersons = (new PersonController(new PersonService(personRepository))).getAllPersons();
-        assertSame(personList, actualAllPersons);
-        assertTrue(actualAllPersons.isEmpty());
-        verify(personRepository).findAll();
-    }
+//    @Test
+//    public void testGetAllPersons() {
+//        PersonRepository personRepository = mock(PersonRepository.class);
+//        ArrayList<Person> personList = new ArrayList<>();
+//        when(personRepository.findAll()).thenReturn(personList);
+//        List<Person> actualAllPersons = (new PersonController(new PersonService(personRepository))).getAllPersons();
+//        assertSame(personList, actualAllPersons);
+//        assertTrue(actualAllPersons.isEmpty());
+//        verify(personRepository).findAll();
+//    }
 
 }
 

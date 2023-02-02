@@ -22,8 +22,8 @@ public class PersonController {
         return personService.getPersonAge(age);
     }
 
-    @GetMapping("/person/all")
-    public List<Person> getAllPersons(){
-        return personService.getAllPersons();
-    }
+//    @GetMapping("/person/all")
+//    public List<Person> getAllPersons(){
+//        return personService.getAllPersons();
+//    }
 }
