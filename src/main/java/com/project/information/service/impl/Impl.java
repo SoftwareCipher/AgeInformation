@@ -4,7 +4,7 @@ import com.project.information.entity.Person;
 
 import java.util.List;
 
-public interface ServiceImpl{
+public interface Impl {
     List<Person> getPersonAge(int age);
 
     List<Person> getAllPersons();

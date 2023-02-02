@@ -1,10 +1,10 @@
 ----------------------------------------------------------------
-Thu Feb 02 09:25:35 EET 2023:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0186-1104-398e-000002a7c5a8 
-on database directory D:\IntelliJ IDEA 2022.2.3\progects\Age Information\mydb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2f0e140b 
+Thu Feb 02 16:51:08 EET 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0186-129c-2637-000001ab4d48 
+on database directory D:\IntelliJ IDEA 2022.2.3\progects\Age Information\mydb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6f94fa3e 
 Loaded from file:/C:/Users/Observer/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
-java.vendor=Oracle Corporation
-java.runtime.version=19.0.1+10-21
+java.vendor=Amazon.com Inc.
+java.runtime.version=17.0.6+10-LTS
 user.dir=D:\IntelliJ IDEA 2022.2.3\progects\Age Information
 os.name=Windows 10
 os.arch=amd64

@@ -2,14 +2,14 @@ package com.project.information.service;
 
 import com.project.information.entity.Person;
 import com.project.information.repository.PersonRepository;
-import com.project.information.service.impl.ServiceImpl;
+import com.project.information.service.impl.Impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class PersonService implements ServiceImpl {
+public class PersonService implements Impl {
 
     PersonRepository personRepository;
 
